@@ -7,7 +7,7 @@ self-contained Jupyter notebook with the research, the code and the evaluation.
 |---|---|
 | `A1/` | Evolutionary algorithms – colouring the map of Europe with a genetic algorithm |
 | `A2/` | Neural networks – recognising spoken elevator commands with a CNN (mini speech commands dataset) |
-| `A3/` | Auto-encoders and variational auto-encoders (to do) |
+| `A3/` | Auto-encoders and variational auto-encoders – reconstruction and latent space arithmetic on Minecraft item textures |
 
 ## How to run
 
@@ -32,3 +32,9 @@ In VS Code, open the notebook and select the interpreter from `.venv` as the ker
 - Running the whole notebook takes about 30 minutes on a laptop CPU, because section 6 trains every
   configuration three times.
 - The live microphone demo in section 7.3 is off by default; set `LIVE_DEMO = True` to use it.
+
+### Notes for A3
+
+- The dataset (`minecraft-items/`, 719 textures of 16 × 16 pixels, ~3 MB) is included in the repository.
+- Running the whole notebook takes about 4 minutes on a laptop CPU, because section 6.2 trains 12 models
+  with different latent sizes.

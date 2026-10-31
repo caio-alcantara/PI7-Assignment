@@ -1,0 +1,6 @@
+tensorflow
+pillow
+matplotlib
+numpy
+ipykernel
+jupyter
